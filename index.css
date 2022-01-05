@@ -1,0 +1,50 @@
+body { 
+    background-color: #404040;
+    font-family:Tahoma;
+    align-self: center;
+    color: #c9c9c9;
+    text-align: center;
+}
+h1 {
+    font-size: 100px;
+    color: #78b5de;
+}
+
+h2 {
+    font-size: 70px;
+}
+
+a {
+    color: #c9c9c9;
+}
+
+#name {
+    display: none;
+}
+
+#fade {
+    display: none;
+}
+
+#container{
+    display: flex;
+
+}
+
+#left {
+    text-align: left;
+    margin-left: 480px;
+    display: inline-block;
+    flex: 1;
+}
+
+#right {
+    text-align: right;
+    margin-right:480px;
+    display: inline-block;
+    flex:1;
+}
+
+#info {
+    color: #40a9ff;
+}

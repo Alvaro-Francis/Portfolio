@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type = "text/css" href="index.css">
+    <script src="/Portfolio/js/jquery-3.6.0.min.js"></script>
+    
+</head>
+<body>
+    
+    <h1 id="name"> Francis Alvaro Resume </h1>
+    <div id="fade">
+        <div id="container">
+            <h2 id="left"> 
+                <a href="/Portfolio/education.html">Education</a>
+            </h2>
+            
+            <h2 id="right">
+                <a href="/Portfolio/experience.html">Experience</a>
+            </h2>
+        </div>
+        <div #id = "info">
+            <h3>
+                Address:  <br>
+                Email:  <br>
+                Phone: <br>
+            </h3>
+
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            $("#name").fadeIn(2500);
+            setTimeout(() => {$("#fade").fadeIn(3000);}, 1000);
+            $("#left").click(function() {
+                $("body").fadeOut("fast");
+            });
+            $("#right").click(function() {
+                $("body").fadeOut("fast");
+            });
+        });
+    </script>
+    
+                        
+                    
+</body>
+</html>

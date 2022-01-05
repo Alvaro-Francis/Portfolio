@@ -1,0 +1,83 @@
+.all {
+    display: none;
+}
+
+.info { 
+    text-align: center;
+    color: #95c3ff;
+}
+
+body {
+    background-color: #404040;
+    color: #d293f6;
+    font-family: Tahoma;
+}
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+}
+
+.fade {
+    display: none;
+}
+.subjects {
+    display: flex;
+}
+
+.taken {
+    color: #83f7b5;
+}
+h2 {
+    flex: 2;
+    margin:60px;
+}
+
+h4 { 
+    flex: 2;
+    margin:60px;
+}
+
+p {
+    font-size: 20px;
+}
+
+#job1 {
+    color: #88f06e;
+}
+
+#desc1 {
+    display:none;
+}
+
+#job2 {
+    color: #ebf06e;
+}
+
+#desc2 {
+    display:none;
+}
+
+#job3 {
+    color: #ebac6e;
+}
+
+#desc3 {
+    display:none;
+}
+
+#volunteer {
+    color: #f09cd8;
+}
+
+#desc4 {
+    display:none;
+}
+
+#skills {
+    color: #47a6ff;
+}
+
+#desc5 {
+    display: none;
+}
